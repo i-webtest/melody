@@ -3,5 +3,5 @@
 ## Technologies
 
 - html
-- css
+- sass
 - javascript
