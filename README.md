@@ -1,4 +1,4 @@
-# Melody - Учебный проект Glo Academy
+# Melody - Educational project Glo Academy
 
 ## Technologies
 
