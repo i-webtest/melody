@@ -1,7 +1,7 @@
-# Melody - Учебный проект Glo Academy
+# Melody - Educational project Glo Academy
 
 ## Technologies
 
 - html
-- css
+- sass
 - javascript
