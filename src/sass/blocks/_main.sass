@@ -1,0 +1,51 @@
+.main
+  padding: 54px 0 95px
+  border-top: 4px solid #3596F5
+  border-bottom: 4px solid #3596F5
+  &__container
+    display: flex
+    align-items: center
+  &__image
+    &-svg
+      & path
+        opacity: 0
+        cursor: pointer
+        &:hover
+          opacity: 1
+  &__info
+    flex-grow: 1
+    text-align: center
+  &__title
+    font-family: 'Bebas Neue Regular', sans-serif
+    font-style: normal
+    font-weight: 400
+    font-size: 30px
+    line-height: 44px
+    // text-align: center
+    text-transform: uppercase
+    color: #635854
+    margin-bottom: 115px
+.counter
+  font-family: 'Bebas Neue Regular', sans-serif
+  font-style: normal
+  font-weight: 400
+  font-size: 124px
+  color: #635854
+  &-group
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    height: 185px
+    margin-bottom: 115px
+  &-arrow
+    &-down
+      transform: rotate(180deg)
+.button
+  background-color: $primary
+  border-radius: 6px
+  padding: 16px 36px
+  color: #fff
+  transition: all .4s ease
+  &:hover
+    background-color: #3c679b

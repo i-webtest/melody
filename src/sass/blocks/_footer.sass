@@ -1,0 +1,56 @@
+.footer
+  background-color: #D7D7D7
+  padding: 50px 0
+  &__container
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__contacts
+    display: flex
+    align-items: center
+    &-call
+      text-align: center
+      color: $text
+      margin-right: 59px
+    &-order
+      margin-bottom: 5px
+  &__logo
+    width: 65px
+    height: 65px
+    margin-right: 37px
+  &__privacy
+    &-list
+      display: flex
+      gap: 20px
+      color: $text
+    &-link
+      position: relative
+      transition: all .4s ease
+      &::after
+        content: ""
+        position: absolute
+        display: block
+        width: 100%
+        height: 1px
+        background-color: $text
+        bottom: 2px
+        transition: all .4s ease
+      &:hover:after
+        background-color: $primary
+      &:hover
+        color: $primary
+.social
+  &-list
+    display: flex
+    align-items: center
+    gap: 15px
+  &-item
+    line-height: 0
+  &-link
+    display: block
+  &-icon
+    fill: $text
+    transition: all .4s ease
+    &:hover
+      fill: $primary
+      transform: scale(1.2)

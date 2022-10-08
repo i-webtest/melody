@@ -28,7 +28,6 @@ button
   border: none
   background-color: transparent
   padding: 0
-  display: block
   cursor: pointer
   font: inherit
 
@@ -47,5 +46,10 @@ img
   font-size: 14px
 
 .phone
+  display: block
   font-weight: 700
   font-size: 17px
+  transition: all .4s ease
+  &:hover
+    transform: scale(1.02)
+    color: $primary
